@@ -1,10 +1,10 @@
 === Wordpress Google Reader Widget ===
 Contributors: miguelibero
 Donate link: http://www.peix.org/donate
-Tags: widget, fotolog
-Requires at least: 2.1
-Tested up to: 2.3.1
-Stable tag: 0.1.5
+Tags: widget, greader
+Requires at least: 2.8
+Tested up to: 2.9.2
+Stable tag: 0.2
 
 Shows items in your google reader.
 
@@ -15,12 +15,18 @@ This widget takes that data and shows it on your wordpress blog's sidebar.
 
 == Installation ==
 
-First install the widgets plugin, the instructions can be found here (Included from Wordpress 2.2 on). Then copy greader.php to your wp-content/plugins directory. Enable the plugin in your wordpress administration and add it to your sidebar.
+First install the widgets plugin, the instructions can be found here (Included from Wordpress 2.2 on). Then copy the directory to your wp-content/plugins directory. Enable the plugin in your wordpress administration and add it to your sidebar.
 
-== History ==
+== Changelog ==
 
-* 06-05-2007 version 0.1: initial release
-* 29-12-2007 version 0.1.5: fixed small weird hex in feed bug
+= 0.1 =
+initial release
+
+= 0.1.5 =
+fixed small weird hex in feed bug
+
+= 0.2 =
+remade code to use new widget class and simplepie, added advanced format parameter
 
 == Frequently Asked Questions ==
 
@@ -31,3 +37,7 @@ Go to your Google Reader page and select "shared items" on the left sidebar. The
 = I selected a tag but no link is shown in the widget. How do I fix it? =
 
 You first have to set the tag to public in your feed setings in your reader, tags are private by default.
+
+== Screenshots ==
+
+1. example widget
