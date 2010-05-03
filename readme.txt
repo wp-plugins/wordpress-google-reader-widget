@@ -41,3 +41,5 @@ You first have to set the tag to public in your feed setings in your reader, tag
 == Screenshots ==
 
 1. example widget
+
+== Upgrade Notice ==
