@@ -4,7 +4,7 @@ Plugin Name: Google Reader widget
 Plugin URI: http://www.peix.org/code/greader-widget
 Description: Adds a widget with the links to the stories shared or starred or of a certain tag of a google reader
 Author: Miguel Ibero
-Version: 0.1
+Version: 0.2
 Author URI: http://www.peix.org/about/
 */
 
