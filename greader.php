@@ -61,9 +61,11 @@ class WP_Widget_Greader extends WP_Widget {
                     $vars = array(
                         '{title}'           => $item->get_title(),
                         '{link}'            => $item->get_link(),
-                        '{source_title}'    => $item->get_source()->get_title(),
                         '{source_link}'     => $link,
                     );
+                    if($source = $item->get_source()){
+                        $vars['{source_title}'] = $source->get_title();
+                    }
                     $html .= "<li>".strtr($format ,$vars)."</li>\n";
                     if($i++>$count){
                         break;
